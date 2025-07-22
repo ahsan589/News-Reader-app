@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.exercise.MainFragment"
+        android:label="MainFragment">
+        <action
+            android:id="@+id/action_mainFragment_to_challengeFragment"
+            app:destination="@id/challengeFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_achievementFragment"
+            app:destination="@id/achievementFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/challengeFragment"
+        android:name="com.example.exercise.ChallengeFragment"
+        android:label="ChallengeFragment" />
+    <fragment
+        android:id="@+id/achievementFragment"
+        android:name="com.example.exercise.AchievementFragment"
+        android:label="AchievementFragment" />
+</navigation>
