@@ -1,6 +1,6 @@
 # 🗞️ News Reader App
 
-An Android app built with Jetpack Compose that fetches and displays real-time news using the free Inshorts API — no API key required.
+An Android app built with Jetpack Compose that fetches and display news using JSONPlaceholder API.
 
 ## ✨ Features
 
